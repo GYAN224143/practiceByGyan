@@ -1,6 +1,7 @@
 import Default from "../components/Default";
 import Pra from "../components/Pra";
 import File from "../components/File";
+import Rows from "../components/Rows";
 
 const Material = () => {
   return (
@@ -22,6 +23,7 @@ const Material = () => {
       <Default />
 
       <File />
+      <Rows />
     </div>
   );
 };
