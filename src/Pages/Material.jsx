@@ -1,5 +1,6 @@
 import Default from "../components/Default";
 import Pra from "../components/Pra";
+import File from "../components/File";
 
 const Material = () => {
   return (
@@ -19,6 +20,8 @@ const Material = () => {
       </p>
       <Pra />
       <Default />
+
+      <File />
     </div>
   );
 };
