@@ -1,3 +1,4 @@
+import Default from "../components/Default";
 import Pra from "../components/Pra";
 
 const Material = () => {
@@ -17,6 +18,7 @@ const Material = () => {
         libero natus. A, culpa.
       </p>
       <Pra />
+      <Default />
     </div>
   );
 };
