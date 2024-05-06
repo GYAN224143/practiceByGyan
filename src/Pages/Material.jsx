@@ -1,3 +1,5 @@
+import Pra from "../components/Pra";
+
 const Material = () => {
   return (
     <div className=" w-full bg-yellow-400">
@@ -14,6 +16,7 @@ const Material = () => {
         quidem voluptatum quas aliquam eum totam eveniet blanditiis veniam
         libero natus. A, culpa.
       </p>
+      <Pra />
     </div>
   );
 };
